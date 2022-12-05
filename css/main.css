@@ -1,0 +1,73 @@
+body {
+    background-color: #faff71;
+    text-align: center;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 25px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-filter, .todo-sort {
+    background-color: rgba(212, 212, 86, 0.575);
+}
+
+.todo-stat {
+    background-color: rgb(128, 214, 240);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.todo-stat span {
+    font-size: 20px;
+}
+
+.todo-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-position: inside;
+    list-style-type: none;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+li button{
+    margin-left: 20px;
+}
+h1 {
+    font-size: 50px;
+}
+
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+
